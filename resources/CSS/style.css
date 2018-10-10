@@ -1,0 +1,35 @@
+/*Navigation*/
+
+.navigation {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  border: 1px solid black;
+  width: 800px;
+  display: inline-flex;
+}
+.buttons a {
+  display: inline-block;
+}
+
+.content {
+  border: 1px solid black;
+}
+
+.title {
+  border: 1px solid black;
+}
+
+.info {
+  border: 1px solid black;
+}
+ img {
+   border: 1px solid black;
+ }
