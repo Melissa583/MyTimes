@@ -1,9 +1,7 @@
 /*Header*/
-
-html {
+* {
   margin: 0;
   padding: 0;
-  border: 1px solid grey;
 }
 
 #header {
@@ -24,10 +22,7 @@ html {
   width: 800px;
   display: inline-flex;
   padding: 10px 20px;
-}
-
-.navigation {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .navigation a {
@@ -38,18 +33,17 @@ html {
 /*Content*/
 
 #content {
-  border: 1px solid black;
   display: flex;
   position: relative;
-  top: 100px;
+  top: 120px;
   flex-direction: column;
   flex-flow: wrap;
   justify-content: space-between;
-  align-items: flex-start;
   font-family: Georgia;
   font-size: 17px;
   color: black;
   z-index: 1;
+  overflow: auto;
 }
 
 .article {
@@ -57,15 +51,14 @@ html {
   }
 
 .concert {
-  border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   width: 100%;
   height: 300px;
   display: flex;
+  background-position: center;
 }
 
 .cats {
-  border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   background-position: center;
   background-size: cover;
@@ -73,43 +66,39 @@ html {
   display: flex;
 }
 
-.cookie {
-  border: 1px solid black;
-}
-
 .earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
-  width: 100%;
   display: flex;
-}
+  width: 300px;
+  }
 
 .research {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height: 300px;
   width: 100%;
   display: flex;
+  width: 300px;
 }
 
 .large {
-  border: 1px solid black;
   display: flex;
   width: 630px;
   flex-wrap: wrap;
 }
 
 .medium {
-  border: 1px solid black;
   display: flex;
   width: 300px;
   flex-wrap: wrap;
 }
 
 .small {
-  border: 1px solid black;
   display: flex;
   width: 240px;
   flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .text {
@@ -117,6 +106,8 @@ html {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .concert-text {
@@ -124,4 +115,62 @@ html {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  margin: 0 auto;
+}
+
+.small p {
+  border-bottom: .5px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 20px;
+  font-weight: normal;
+}
+
+.cookie h2 {
+  text-align: center;
+}
+
+
+/*Footer*/
+
+.footer {
+  margin: auto;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  display: inline-block;
+  justify-content: center;
+}
+
+h4 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.line-one p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.line-one {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
